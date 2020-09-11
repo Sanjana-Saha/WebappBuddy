@@ -15,7 +15,7 @@ namespace PracticeWebApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "My name is Sanjana Saha. I live in Calcutta";
+            ViewBag.Message = "My name is Sanjana Saha. I live in Calcutta"+"\n I am Rutuja and I am from Pune";
 
             return View();
         }
